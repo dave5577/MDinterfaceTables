@@ -71,7 +71,7 @@ ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
 M1C_ICN_1 | User | The M1 Cell shall allow sufficient access to the bottom of the primary mirror, for maintenance purposes. | J. Gracia / C. Rodríguez | na | na
 M1C_ICN_2 | OSS | Stiff connection between centre section and M1 cell required for proper performance | J. Gracia / C. Rodríguez | na | na
-<a name="M1C_ICN_3"></a> | Focal Station | The bottom of the M1 cell requires to be stiffly connected to the rotator / focal station | J. Gracia / A. Ranjbar | na | na
+<a name="M1C_ICN_3"></a> M1C_ICN_3 | Focal Station | The bottom of the M1 cell requires to be stiffly connected to the rotator / focal station | J. Gracia / A. Ranjbar | na | na
 M1C_ICN_4 | Focal Station | The M1 cell space frame shall provide a clear light path to the rotator. | J. Gracia / C. Rodríguez | na | na
 M1C_ICN_5 | M1 Support | The top of the M1 cell shall provide support for the M1 segment subassemblies. | C. Rodríguez / M. Torres | na | na
 
