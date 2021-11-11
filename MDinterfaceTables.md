@@ -21,7 +21,7 @@ To add a new interface, simply add it as a row under the relevant system or subs
 ### Rotator (RT_ICN_X)
 ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
-RT_ICN_1 | M1 Cell mounting | The Rotator assembly shall be mounted to the OSS via the M1 cell bottom face allowing it to meet its functional and performance requirements  | Cesar/ A. Ranjbar | [M1C_ICN_3](#M1C_ICN_3) | na
+<a name="RT_ICN_1"></a> RT_ICN_1 | M1 Cell mounting | The Rotator assembly shall be mounted to the OSS via the M1 cell bottom face allowing it to meet its functional and performance requirements  | Cesar/ A. Ranjbar | [M1C_ICN_3](#M1C_ICN_3) | na
 RT_ICN_2 | A&G Box | The Rotator assembly shall transmit the rotational torque to the A&G box via a slew bearing allowing it to meet its functional and performance requirements | A. Ranjbar | A&G_ICN_1 | na
 RT_ICN_3 | TLS | The Rotator shall receive status and control parameters from the TLS and provide diagnostic data as well as guiding data | I. Steele | na | na
 
@@ -71,7 +71,7 @@ ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
 M1C_ICN_1 | User | The M1 Cell shall allow sufficient access to the bottom of the primary mirror, for maintenance purposes. | J. Gracia / C. Rodríguez | na | na
 M1C_ICN_2 | OSS | Stiff connection between centre section and M1 cell required for proper performance | J. Gracia / C. Rodríguez | na | na
-<a name="M1C_ICN_3"></a> M1C_ICN_3 | Focal Station | The bottom of the M1 cell requires to be stiffly connected to the rotator / focal station | J. Gracia / A. Ranjbar | na | na
+<a name="M1C_ICN_3"></a> M1C_ICN_3 | Focal Station | The bottom of the M1 cell requires to be stiffly connected to the rotator / focal station | J. Gracia / A. Ranjbar | [RT_ICN_1](#RT_ICN_1) | na
 M1C_ICN_4 | Focal Station | The M1 cell space frame shall provide a clear light path to the rotator. | J. Gracia / C. Rodríguez | na | na
 M1C_ICN_5 | M1 Support | The top of the M1 cell shall provide support for the M1 segment subassemblies. | C. Rodríguez / M. Torres | na | na
 
