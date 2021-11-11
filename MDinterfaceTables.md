@@ -16,19 +16,22 @@ To add a new interface, simply add it as a row under the relevant system or subs
 * When deleting an interface - simply use line through format on the removed interface and continue incrementing the IDs (they will not necessarily be sequential)
 * When editing an interface - ensure the change column is updated with author /change owner
 
+* For creating a label use the following: <a name="abcd"></a> "link name"
+* To link to a label use the following: [link text](#abcd)
+
 ## NRT Interface Tables
 
 ### Rotator (RT_ICN_X)
 ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
 <a name="RT_ICN_1"></a> RT_ICN_1 | M1 Cell mounting | The Rotator assembly shall be mounted to the OSS via the M1 cell bottom face allowing it to meet its functional and performance requirements  | Cesar/ A. Ranjbar | [M1C_ICN_3](#M1C_ICN_3) | na
-RT_ICN_2 | A&G Box | The Rotator assembly shall transmit the rotational torque to the A&G box via a slew bearing allowing it to meet its functional and performance requirements | A. Ranjbar | A&G_ICN_1 | na
+<a name="RT_ICN_2"></a> RT_ICN_2 | A&G Box | The Rotator assembly shall transmit the rotational torque to the A&G box via a slew bearing allowing it to meet its functional and performance requirements | A. Ranjbar | [A&G_ICN_1](#A&G_ICN_1) | na
 RT_ICN_3 | TLS | The Rotator shall receive status and control parameters from the TLS and provide diagnostic data as well as guiding data | I. Steele | na | na
 
 ### A&G Box (A&G_ICN_X)
 ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
-A&G_ICN_1 | Rotator | The Rotator assembly shall transmit the rotational torque to the A&G box via a slew bearing allowing it to meet its functional and performance requirements | A. Ranjbar | RT_ICN_2 | na
+<a name="A&G_ICN_1"></a> A&G_ICN_1 | Rotator | The Rotator assembly shall transmit the rotational torque to the A&G box via a slew bearing allowing it to meet its functional and performance requirements | A. Ranjbar | [RT_ICN_2](#RT_ICN_2) | na
 A&G_ICN_2 | Fold mirror assembly | The fold mirror assembly shall be mounted to the A&G box via a linear rail mechanism allowing it to meet its functional and performance requirements | A. Ranjbar | na | na
 A&G_ICN_3 | Wave Front Sensor | The fold mirror assembly shall be mounted to the A&G box via a linear rail mechanism allowing it to meet its functional and performance requirements | A. Ranjbar | na | na
 A&G_ICN_4 | Autoguider | The Autoguider pickoff mirror shall be mounted to the A&G box within 30 arcmin?? | A. Ranjbar | AG_ICN_1 | na
