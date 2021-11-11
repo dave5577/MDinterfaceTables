@@ -96,8 +96,8 @@ OSS_ICN_5 | Instruments | The OSS shall be balanced around the elevation axis. I
 ### Mount (MNT_ICN_X)
 ID | Interface | Description | Responsible | Coresponding ID | Document linking
 ---|-----------|-------------|-------------|-----------------|-----------------
-MNT_ICN_1 |
-MNT_ICN_2 |
-MNT_ICN_3 |
-MNT_ICN_4 |
-MNT_ICN_5 |
+MNT_ICN_1 | OSS |The OSS and the mount shall interface through the elevation trunnion and drive. | J. Gracia / C. Rodríguez | na | na
+MNT_ICN_2 | Pier | The mount shall interface with the pier through its azimuth ring. The azimuth solution shall include end stops to prevent excessive rotation. | C. Rodríguez / D. Copley | na | na
+MNT_ICN_3 | Enclosure | The mount shall be able to fully rotate within the enclosure while it is closed. | C. Rodríguez / A. McGrath | na | na
+MNT_ICN_4 | Site Equipment | The mount shall allow the affixation of a small crane for maintenance operations, such as lifting the mirrors for maintenance purposes. |  C. Rodríguez / A. McGrath | na | na
+MNT_ICN_5 | Instruments | The mount and instrument combination shall allow sufficient clearance between the structural elements and the instruments. |  C. Rodríguez / A. Ranjbar | na | na
